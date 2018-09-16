@@ -1,17 +1,17 @@
 "use strict";
 
-const moduleTest = require("../");
+const moduleTest = require("../lib");
 
 var message1 = {};
 message1.username = "admin";
 message1.password = "123";
+
 moduleTest(message1).then(function(result){
     console.log("sucess! ", result);
 }, function(err){
     console.log("err! ", err);
 })
 
-/*
 setInterval(function(){
     var message2 = {};
     message2.username = "admin";
@@ -22,4 +22,3 @@ setInterval(function(){
         console.log("erro! ", err);
     })
 }, 10);
-*/
