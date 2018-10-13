@@ -1,6 +1,6 @@
 {
   "name": "@functions-io-modules/security.login.mongo",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "login mongo",
   "category": "test",
   "public": true,
