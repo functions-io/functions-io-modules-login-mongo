@@ -1,6 +1,6 @@
 {
   "name": "@functions-io-modules/security.login.mongo",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "login mongo",
   "category": "test",
   "public": true,
@@ -10,7 +10,7 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "mongodb": "3.*"
+  "devDependencies": {
+    "@functions-io-modules/datasource.driver.mongo": "0.*"
   }
 }
