@@ -17,7 +17,7 @@ context.getConfig = function(){
 context.getDataSource = function(){
     let config = {};
     config.url = "mongodb://localhost:27017";
-    config.dataBaseName = "security";
+    config.database = "security";
     return driver.getDataSource(config);
 }
 
